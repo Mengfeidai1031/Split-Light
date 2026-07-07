@@ -1,8 +1,149 @@
-# Split-Light
+<div align="center">
 
-> Split Light is an Escape Room-style game where two characters with unique abilities are capable of solving puzzles of different natures.
+# Split Light
 
-![Splash Screen](https://raw.githubusercontent.com/SkinnyDevi/Split-Light-Metadata/refs/heads/master/Icons/SplashScreen.png)
+### An Escape-Room game where two linked characters race the clock across themed planets
+
+![Godot](https://img.shields.io/badge/Godot-4.4-478cbf?logo=godotengine&logoColor=white)
+![GDScript](https://img.shields.io/badge/language-GDScript-355570)
+![Multiplayer](https://img.shields.io/badge/multiplayer-client--server-6aa84f)
+![Contributors](https://img.shields.io/badge/contributors-6-orange)
+
+<img src="https://raw.githubusercontent.com/SkinnyDevi/Split-Light-Metadata/refs/heads/master/Icons/SplashScreen.png" alt="Split Light splash screen" width="600">
+
+</div>
+
+## Table of Contents
+
+- [Description](#description)
+- [Screenshots](#screenshots)
+- [Gameplay Preview](#gameplay-preview)
+- [Behind the Scenes](#behind-the-scenes)
+- [Controls](#controls)
+- [Multiplayer](#multiplayer)
+- [Design Boards](#design-boards)
+- [Project Board](#project-board)
+- [Tech Stack](#tech-stack)
+- [Developers](#developers)
+- [Acknowledgements](#acknowledgements)
+
+## Description
+
+Split Light is an Escape Room-style game in which two players possess unique
+characteristics that are key to solving challenging puzzles within a maximum
+time limit.
+
+Navigate the Split Light universe, jumping between diverse planets with unique
+themes alongside creative, challenging puzzles that require thinking outside
+the box.
+
+## Screenshots
+
+<table>
+<tr>
+<td align="center" width="33%">
+<img src="docs/readme/screenshots/controls-menu.png" width="280"><br>
+<sub>Controls menu</sub>
+</td>
+<td align="center" width="33%">
+<img src="docs/readme/screenshots/level-complete.png" width="280"><br>
+<sub>Level completed screen</sub>
+</td>
+<td align="center" width="33%">
+<img src="docs/readme/screenshots/multiplayer-connect.png" width="280"><br>
+<sub>Connecting to a co-op session</sub>
+</td>
+</tr>
+</table>
+
+## Gameplay Preview
+
+📹 [Watch a short gameplay clip](docs/readme/video/gameplay-demo.mov) *(~10 MB,
+opens in GitHub's file viewer)*
+
+## Behind the Scenes
+
+A look at how the game's art and systems came together during development.
+
+<table>
+<tr>
+<td align="center" width="50%">
+<img src="docs/readme/dev-process/map-design-top.png" width="420"><br>
+<sub>Map design — surface biome, inspired by California redwoods, Hawaiian
+tikis and Easter Island moai</sub>
+</td>
+<td align="center" width="50%">
+<img src="docs/readme/dev-process/map-design-bottom.png" width="420"><br>
+<sub>Map design — underground biome, inspired by Mexican cave crystals and
+water lilies</sub>
+</td>
+</tr>
+<tr>
+<td align="center" width="50%">
+<img src="docs/readme/dev-process/spritesheets.png" width="420"><br>
+<sub>Generated spritesheets for both playable characters</sub>
+</td>
+<td align="center" width="50%">
+<img src="docs/readme/dev-process/multiplayer-architecture.png" width="420"><br>
+<sub>Multiplayer client-server architecture and connection flow</sub>
+</td>
+</tr>
+</table>
+
+## Controls
+
+<img src="docs/readme/screenshots/controls-menu.png" width="450" align="right">
+
+| Action | Key |
+| --- | --- |
+| Move left / right | `Left` / `Right` arrow |
+| Jump | `W` |
+| Switch player | `Tab` |
+| Interact | `E` |
+| Take / Drop item | `F` / `Q` |
+| Inventory slots 1-3 | `1` `2` `3` |
+| Reset timer | `R` |
+| Pause | `Escape` |
+
+All bindings above are remappable in-game from the Controls menu.
+
+<br clear="right">
+
+## Multiplayer
+
+Split Light supports co-op play over a **client-server** network
+architecture: one player hosts the session and the other joins with the
+host's IP and port.
+
+Since the game isn't hosted on dedicated servers, playing with a friend
+remotely requires one of:
+
+- A virtual LAN tool such as [Hamachi](https://vpn.net/), or
+- Manually forwarding a port on the host's router (default port `49359`,
+  range `49152`-`65535`)
+
+## Design Boards
+
+[![Figma](https://img.shields.io/badge/Figma-View%20designs-F24E1E?logo=figma&logoColor=white)](https://www.figma.com/design/VT0UKK87N6LZgI05aA2SI9/Vistas---Split-Light?node-id=0-1&t=OkTcRE2eOXmAB1ab-1)
+
+All designs and mockups made so far, from complete screens to individual
+elements.
+
+## Project Board
+
+[![Trello](https://img.shields.io/badge/Trello-Project%20board-0052CC?logo=trello&logoColor=white)](https://trello.com/b/3kcMWzsV/split-light)
+
+The complete task log to date, with all pending features to develop, those in
+progress, and those ready for production.
+
+## Tech Stack
+
+This project is built with [Godot 4.4](https://godotengine.org/), a game
+engine with extensive capabilities for 2D games and broad support for 3D.
+
+Godot has its own programming language (GDScript), which is easy to learn,
+with a low learning curve, and capable of providing a fast workflow in a short
+time.
 
 ## Developers
 
@@ -12,49 +153,6 @@
 - Mario García Abellán
 - Juan Carlos Rodríguez Ramírez
 - Ian Samuel Trujillo Gil
-
-## Table of Contents
-
-- [Description](#description)
-- [Design Boards](#design-boards)
-- [Project Board](#project-board)
-- [Tech Stack](#tech-stack)
-- [Screenshots](#screenshots)
-- [Acknowledgements](#acknowledgements)
-
-## Description
-
-Split Light is an Escape Room-style game in which two players possess unique characteristics that will be key to solving challenging puzzles within a maximum time limit.
-
-Navigate the Split Light universe, jumping between diverse planets with unique themes alongside creative, challenging puzzles that require thinking outside the box.
-
-## Design Boards
-
-![FigmaLogo](https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fassets.stickpng.com%2Fimages%2F62c6bc0beee9410fe137d91e.png&f=1&nofb=1&ipt=6d1282a996fb6f427ef1a9baf7f339e84d778f531b6037d06ec9a3e03a0ad9df&ipo=images)
-
-Here you can find all designs and mockups made so far, from complete screens to individual elements.
-
-- [Initial screen and various components](https://www.figma.com/design/VT0UKK87N6LZgI05aA2SI9/Vistas---Split-Light?node-id=0-1&t=OkTcRE2eOXmAB1ab-1)
-
-## Project Board
-
-![TrelloLogo](https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Flogos-world.net%2Fwp-content%2Fuploads%2F2021%2F03%2FTrello-Logo.png&f=1&nofb=1&ipt=a55725f1a03e6dc20a31a38aeae9175b82378c48935e164430c4f4e9d7b42b0e&ipo=images)
-
-Here you can find the complete task log to date, with all pending features to develop, those in progress, and those ready for production.
-
-[Project Board on Trello](https://trello.com/b/3kcMWzsV/split-light)
-
-## Tech Stack
-
-![GodotLogo](https://godotengine.org/assets/logo_dark.svg)
-
-This project is based on [Godot 4.4](https://godotengine.org/), a game engine with extensive capabilities for 2D games and broad support for 3D.
-
-Godot has its own programming language (GDScript), which is easy to learn, with a low learning curve, and capable of providing a fast workflow in a short time.
-
-## Screenshots
-
-As game development progresses, we will add more game screenshots.
 
 ## Acknowledgements
 
