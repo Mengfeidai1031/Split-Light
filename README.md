@@ -7,7 +7,7 @@
 ![Godot](https://img.shields.io/badge/Godot-4.4-478cbf?logo=godotengine&logoColor=white)
 ![GDScript](https://img.shields.io/badge/language-GDScript-355570)
 ![Multiplayer](https://img.shields.io/badge/multiplayer-client--server-6aa84f)
-![Contributors](https://img.shields.io/badge/contributors-6-orange)
+[![Contributors](https://img.shields.io/badge/contributors-6-orange)](https://github.com/Mengfeidai1031/Split-Light/graphs/contributors)
 
 <img src="https://raw.githubusercontent.com/SkinnyDevi/Split-Light-Metadata/refs/heads/master/Icons/SplashScreen.png" alt="Split Light splash screen" width="600">
 
